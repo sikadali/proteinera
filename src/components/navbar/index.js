@@ -15,25 +15,19 @@ return (
 
 		<NavMenu>
 		<NavLink to='/' activeStyle>
-			Search
+			SEARCH NEIGHBOURS
 		</NavLink>
-		<NavLink to='/dogs' activeStyle>
-			Dogs
+		<NavLink to='/byname' activeStyle>
+			SEARCH BY NAME 
 		</NavLink>
-		<NavLink to='/cats' activeStyle>
-			Cats
-		</NavLink>
-		<NavLink to='/sheeps' activeStyle>
-			Sheeps
-		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
-			Sign Up
+		<NavLink to='/byentry' activeStyle>
+			SEARCH BY ENTRY
 		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
 		<NavBtn>
-		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
+		<NavBtnLink to='/statistics'>STATISTICS</NavBtnLink>
 		</NavBtn>
 	</Nav>
 	</>

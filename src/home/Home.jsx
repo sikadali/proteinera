@@ -1,20 +1,18 @@
 import './Home.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Search from '../components/search/Search';
 import Navbar from '../components/navbar';
-import Dogs from "../components/pages/Dogs";
-import Cats from "../components/pages/Cats";
-import Sheeps from "../components/pages/Sheeps";
+import ByName from "../components/pages/ByName";
+import ByEntry from "../components/pages/ByEntry";
+import HomePage from '../components/pages/HomePage';
 
 export default function Home() {
     return (
         <Router>
           <Navbar />
           <Routes>
-            <Route path='/' element={<Search/>} />
-            <Route path='/dogs' element={<Dogs/>} />
-            <Route path='/cats' element={<Cats/>} />
-            <Route path='/sheeps' element={<Sheeps/>} />
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/byname' element={<ByName/>} />
+            <Route path='/byentry' element={<ByEntry/>} />
           </Routes>
         </Router>
       );

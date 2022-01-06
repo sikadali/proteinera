@@ -4,9 +4,11 @@ import Navbar from '../components/navbar';
 import ByName from "../components/pages/ByName";
 import ByEntry from "../components/pages/ByEntry";
 import HomePage from '../components/pages/HomePage';
+import StoreProvider from '../utils/StoreProvider'
 
 export default function Home() {
     return (
+      <StoreProvider>
         <Router>
           <Navbar />
           <Routes>
@@ -15,6 +17,7 @@ export default function Home() {
             <Route path='/byentry' element={<ByEntry/>} />
           </Routes>
         </Router>
-      );
+      </StoreProvider>
+    );
 }
 

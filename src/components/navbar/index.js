@@ -18,10 +18,10 @@ return (
 			SEARCH NEIGHBOURS
 		</NavLink>
 		<NavLink to='/byname' activeStyle>
-			SEARCH BY NAME 
+			ABOUT US
 		</NavLink>
 		<NavLink to='/byentry' activeStyle>
-			SEARCH BY ENTRY
+			TUTORIAL
 		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

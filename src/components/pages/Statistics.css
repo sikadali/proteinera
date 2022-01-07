@@ -1,0 +1,16 @@
+.statistics {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 25px;
+	margin-top: 60px;
+}
+
+.statistics__col {
+	margin-top: 25px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 100px;
+	align-items: baseline;
+}

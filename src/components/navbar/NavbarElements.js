@@ -24,6 +24,10 @@ cursor: pointer;
 &.active {
 	color: #000000;
 }
+&:hover {
+	transition: all 0.2s ease-in-out;
+	color: #0f0f46;
+}
 `;
 
 export const Bars = styled(FaBars)`
@@ -80,6 +84,10 @@ text-decoration: none;
 margin-left: 24px;
 &:hover {
 	transition: all 0.2s ease-in-out;
+	background: #fff;
+	color: #808080;
+}
+&.active {
 	background: #fff;
 	color: #808080;
 }
